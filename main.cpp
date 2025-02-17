@@ -11,3 +11,13 @@ using namespace std;
 int main() {
     cout << "Este programa suma dos fracciones." << endl;
 
+    int numerador1, denominador1, numerador2, denominador2;
+    
+    cout << "Entre el numerador de la 1ra fracción: ";
+    cin >> numerador1;
+    cout << "Entre el denominador de la 1ra fracción: ";
+    cin >> denominador1;
+    cout << "Entre el numerador de la 2da fracción: ";
+    cin >> numerador2;
+    cout << "Entre el denominador de la 2da fracción: ";
+    cin >> denominador2;
