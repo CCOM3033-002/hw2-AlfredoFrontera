@@ -21,3 +21,10 @@ int main() {
     cin >> numerador2;
     cout << "Entre el denominador de la 2da fracción: ";
     cin >> denominador2;
+    int sumaNumerador = numerador1 * denominador2 + numerador2 * denominador1;
+    int sumaDenominador = denominador1 * denominador2;
+    
+    cout << "La suma es " << sumaNumerador << "/" << sumaDenominador << "." << endl;
+    
+    return 0;
+}
